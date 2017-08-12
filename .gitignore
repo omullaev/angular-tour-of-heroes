@@ -9,3 +9,7 @@ dist/*
 yarn.lock
 .idea/
 protractor-jasmine-demo.iml
+allure-results/
+tests/target/
+tests/**/*.js
+tests/**/*.map

@@ -36,6 +36,21 @@ npm run rollup
 http-server
 ```
 
+### Runs e2e tests
+```
+npm run e2e
+```
+
+### Build report
+```
+mvn site -Dallure.results_pattern=allure-results
+```
+
+### Deploy report via jetty on 1234 port
+```
+mvn jetty:run -Djetty.port=1234
+```
+
 Notes:
 - Use your favorite server in place of `http-server`
 - This could be scripted, obviously
